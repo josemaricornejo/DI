@@ -41,7 +41,7 @@ public class RelojDigital extends JLabel implements Serializable, Runnable {
         estado = true;
         hilo.start();
         
-        System.out.println("1");
+        
         System.out.println(alarma);
         if(alarma!=null){
             System.out.println("2");
